@@ -2,26 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Montserrat", sans-serif;
+}
+.primary {
+  background-color: #faf0e6;
+}
+.secondary {
+  background-color: #352f44;
+}
+.t-primary {
+  color: #faf0e6;
+}
+.t-secondary {
+  color: #352f44;
+}
+
+
+
+/* Marquee Content Styles */
+.marquee-content {
+  animation: marquee 40s linear infinite; /* Adjust the duration as needed */
+  position: absolute;
+  white-space: nowrap;
+}
+.marquee-content-2 {
+  /* animation-delay: ; */
+  animation: marquee 40s linear infinite; /* Adjust the duration as needed */
+  position: absolute;
+  left: 89%;
+  white-space: nowrap;
+}
+
+/* Keyframes for Marquee Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
