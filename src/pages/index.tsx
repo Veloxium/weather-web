@@ -312,7 +312,7 @@ export default function Home() {
         </motion.div>
       )}
       <div className="absolute bottom-7 w-full flex justify-center items-center">
-        <p className="text-xs">Copyright Veloxium</p>
+        <p className="text-xs">Copyright Veloxium.</p>
         <Image src={emojime} alt="me" className="w-6 h-6"/>
       </div>
     </main>
