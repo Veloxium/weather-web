@@ -270,7 +270,7 @@ export default function Home() {
             </svg>
           </div>
           <div className="secondary min-h-screen w-[260px] flex justify-center items-center flex-col">
-            <p className="text-white font-bold">"{weather?.description}"</p>
+            <p className="text-white font-bold uppercase">{weather?.description}</p>
             <div className="flex gap-2 font-semibold items-center justify-between">
               <p className="text-slate-400 text-5xl">Temp</p>
               <p className="text-white">{data?.main?.temp}° C</p>
