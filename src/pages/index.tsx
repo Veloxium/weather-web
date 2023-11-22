@@ -71,7 +71,7 @@ export default function Home() {
   });
 
   const checkTime = parseInt(time.slice(0, 1));
-
+  console.log(checkTime)
   const good = () => {
     if (checkTime > 6) {
       if (time.slice(-2) === "AM") {
@@ -83,7 +83,11 @@ export default function Home() {
       if (time.slice(-2) === "AM") {
         setGreat("Good Subuh Sir !");
       } else if (time.slice(-2) === "PM") {
-        setGreat("Good Afternoon");
+        if (checkTime > 3) {
+          setGreat("Good Afternoon");
+        } else {
+        setGreat("Good Day Sir !");
+        }
       }
     }
   };

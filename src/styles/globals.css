@@ -22,26 +22,3 @@ body {
 
 
 
-/* Marquee Content Styles */
-.marquee-content {
-  animation: marquee 40s linear infinite; /* Adjust the duration as needed */
-  position: absolute;
-  white-space: nowrap;
-}
-.marquee-content-2 {
-  /* animation-delay: ; */
-  animation: marquee 40s linear infinite; /* Adjust the duration as needed */
-  position: absolute;
-  left: 89%;
-  white-space: nowrap;
-}
-
-/* Keyframes for Marquee Animation */
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
