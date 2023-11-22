@@ -71,7 +71,6 @@ export default function Home() {
   });
 
   const checkTime = parseInt(time.slice(0, 1));
-  console.log(checkTime)
   const good = () => {
     if (checkTime > 6) {
       if (time.slice(-2) === "AM") {
