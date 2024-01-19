@@ -1,6 +1,8 @@
 # Weather Web
 
-![Weather Web]![Screenshot 2024-01-20 030121](https://github.com/Veloxium/weather-web/assets/111406150/6be1d0a2-a9d5-43a5-86fa-98e9cce55f06)
+![Weather Web](https://weather-web-vel.vercel.app/)
+
+![Screenshot 2024-01-20 030121](https://github.com/Veloxium/weather-web/assets/111406150/6be1d0a2-a9d5-43a5-86fa-98e9cce55f06)
 
 
 ## Deskripsi
